@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+ 
+   <section class="section1">
+    <h1 data-aos="zoom-in">Animation Challenge</h1>
+    <div class="container">
+      <div class="card lg-4" style="width: 40rem" data-aos="fade-right">
+      <div class="fav">
+       <i class="fab fa-amazon fa-2x"></i>
+      </div>
+       <div class="card-body">
+        <hr>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       </div>
+     </div>
+
+     <div class="card lg-4" style="width: 40rem;" data-aos="fade-up" data-aos-delay="300">
+      <div class="fav">
+       <i class="fab fa-android fa-2x"></i>
+      </div>
+       <div class="card-body">
+        <hr>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       </div>
+     </div>
+
+     <div class="card lg-4" style="width: 40rem;" data-aos="fade-left" data-aos-delay="600">
+      <div class="fav">
+       <i class="fab fa-apple fa-2x"></i>
+      </div>
+       <div class="card-body">
+        <hr>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       </div>
+   </div>
+     </div>
+
+  </section>
+
+  <section class='section2'>
+      <img src="https://images.unsplash.com/photo-1530787167509-8eca32f47c60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" width=200 height=200 alt="pic1" data-aos="flip-left" data-aos-delay="600">
+      <div class="rightComponent" data-aos="zoom-in">
+        <div class="upCom">
+        <i class="fab fa-airbnb fa-2x air"></i>
+        <h3>Lorem Lorem</h3>
+      </div>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+
+  </section>
+
+  <section>
+   <div class="sentence">   
+    <h1>Famous Legos</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm</p>
+   </div>
+   <div class="users">
+    <div class="individual" data-aos="zoom-in-right" data-aos-delay="200">
+      <img src="https://randomuser.me/api/portraits/lego/3.jpg" width=100 height=100 alt="user1" class="user">
+      <div class="name">
+        <p>Lego A</p>
+      </div>
+    </div>
+    <div class="individual" data-aos="zoom-in-right" data-aos-delay="300">
+      <img src="https://randomuser.me/api/portraits/lego/5.jpg" width=100 height=100 alt="user2" class="user">
+      <div class="name">
+        <p>Lego B</p>
+      </div>
+    </div>
+    <div class="individual" data-aos="zoom-in-right" data-aos-delay="400">
+      <img src="https://randomuser.me/api/portraits/lego/6.jpg" width=100 height=100 alt="user3" class="user">
+      <div class="name">
+        <p>Lego C</p>
+      </div>
+    </div>
+    <div class="individual" data-aos="zoom-in-right" data-aos-delay="500">
+      <img src="https://randomuser.me/api/portraits/lego/4.jpg" width=100 height=100 alt="user4" class="user">
+      <div class="name">
+        <p>Lego D</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1500,
+    once: false,
+    mirror: false
+  });
+</script>
+</html>

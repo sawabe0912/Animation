@@ -1,0 +1,95 @@
+
+
+.content{
+	width: 80%;
+	margin-left: 40%;
+}
+
+.container{
+	display: flex;
+	margin-top: 100px;
+}
+
+.card{
+	margin: 20px;
+}
+
+.fab{
+	color: blue;
+	margin-top: 10px;
+}
+
+.fav{
+	text-align: center;
+}
+
+.section1{
+	margin-top: 100px;
+	margin-bottom: 300px;
+}
+
+.section2{
+	margin-top: 200px;
+	display: flex;
+	margin-left: 20%;
+	margin-bottom: 300px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+img{
+	border-radius: 10px;
+	margin-left: 15%;
+	margin-top: 90px;
+}
+
+.rightComponent{
+	margin-left: 10%;
+	width: 250px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.upCom{
+	display: flex;
+}
+
+.air{
+	margin-left: 4px;
+	margin-right: 8px;
+}
+h3{
+	vertical-align: center;
+}
+
+.sentence{
+	width: 50%;
+	margin-left: 25%;
+}
+
+p{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.user{
+	border-radius: 50%;
+	filter: drop-shadow(2px 4px 6px #000);
+	margin-bottom: 20px;
+}
+
+.users{
+	display: flex;
+}
+
+.individual{
+	margin-left: 200px;
+}
+
+.name{
+	margin-left: 30px;
+}
